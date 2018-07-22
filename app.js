@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var counter = require('./routes/counter');
 
-var app = express();x
+var app = express();
 
 app.use(logger('dev'));
 app.use(express.json());
